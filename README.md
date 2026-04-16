@@ -24,24 +24,24 @@ git clone https://github.com/usuario/clasificacion-dermatologica.git
 cd clasificacion-dermatologica
 ```
 
-3. Instalar las dependencias necesarias (si aplica):
+3. Instalar las dependencias necesarias:
 ```bash
 pip install -r requirements.txt
 ```
 
 4. Ejecutar el preprocesamiento de las imágenes:
 ```bash
-python src/preprocessing.py
+python src/01_preprocessing.py
 ```
 
 5. Entrenar el modelo de clasificación:
 ```bash
-python src/train_model.py
+python src/02_training_model.py
 ```
 
 6. Evaluar el modelo:
 ```bash
-python src/evaluate_model.py
+python src/03_evaluation.py
 ```
 
 ## **Información Adicional**
