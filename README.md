@@ -57,14 +57,17 @@ python src/evaluate_model.py
 + *Estructura del proyecto*
 ```text
 .
-├── data/               
+├── data/
+│   └── train/
+│   └── test/               
 ├── docs/              
 │   └── references/      
 ├── models/            
 ├── results/            
 ├── src/                
 ├── .gitignore          
-├── LICENSE             
+├── LICENSE
+├── requirements.txt     
 └── README.md           
 ```
 
