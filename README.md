@@ -54,28 +54,38 @@ python src/03_evaluation.py
 + *Datos utilizados:*
     * Imágenes dermatológicas de lesiones cutáneas (benignas y malignas).
 
-+ *Estructura del proyecto*
+## Estructura del proyecto
+
 ```text
-.
 ├── data/
+│   ├── test/
 │   ├── train/
-│   └── test/
+│   └── data.txt
 ├── docs/
-│   └── references/
+│   ├── references/
+│   ├── docs.txt
+│   ├── project_notes.md
+│   └── workflow_description.md
 ├── models/
+│   ├── model_1.pkl
+│   ├── model_2.pkl
+│   └── models.txt
 ├── results/
 │   ├── figures/
-│   └── metrics/
+│   │   └── Figures.md
+│   ├── metrics/
+│   │   └── README.md
+│   └── results.txt
 ├── src/
-│   ├── preprocessing.py
-│   ├── train_model.py
-│   └── evaluate_model.py
+│   ├── 01_preprocessing.py
+│   ├── 02_training_model.py
+│   ├── 03_evaluation.py
+│   ├── src.txt
+│   └── src_2.txt
 ├── .gitignore
 ├── LICENSE
-├── requirements.txt
-└── README.md          
-```
-
+├── README.md
+└── requirements.txt
 ## Notas
 Este repositorio se ha creado como parte del trabajo correspondiente a la asignatura de Introducción a la Programación Científica del Máster de Bioinformática de la UNIR.
 
