@@ -58,17 +58,22 @@ python src/03_evaluation.py
 ```text
 .
 ├── data/
-│   └── train/
-│   └── test/               
-├── docs/              
-│   └── references/      
-├── models/            
-├── results/            
-├── src/                
-├── .gitignore          
+│   ├── train/
+│   └── test/
+├── docs/
+│   └── references/
+├── models/
+├── results/
+│   ├── figures/
+│   └── metrics/
+├── src/
+│   ├── preprocessing.py
+│   ├── train_model.py
+│   └── evaluate_model.py
+├── .gitignore
 ├── LICENSE
-├── requirements.txt     
-└── README.md           
+├── requirements.txt
+└── README.md          
 ```
 
 ## Notas
