@@ -9,7 +9,7 @@ Este proyecto abarca la implementación y entrenamiento de un modelo de aprendiz
 ## **Objetivos**
 
 + *Automatización:* Utilización un modelo de AA para reducir la subjetividad en el diagnóstico visual de lesiones.
-+ *Optimización:*  Depuración del conjunto de datos para optimizar la extracción de descriptores morfológicos y características del tejido cutáneo.
++ *Optimización:*  Depuración del conjunto de datos con el fin de optimizar la extracción de descriptores morfológicos y características del tejido cutáneo.
 + *Validación:* Evaluar el rendimiento del algoritmo mediante métricas de precisión y sensibilidad.
 
 ## **Instrucciones de uso**
