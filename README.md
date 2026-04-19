@@ -86,7 +86,8 @@ python src/03_evaluation.py
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-## Notas
+```
+## **Notas**
 Este repositorio se ha creado como parte del trabajo correspondiente a la asignatura de Introducción a la Programación Científica del Máster de Bioinformática de la UNIR.
 
 ## **Autores**
