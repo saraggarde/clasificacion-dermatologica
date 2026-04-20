@@ -60,28 +60,21 @@ python src/03_evaluation.py
 ├── data/
 │   ├── test/
 │   ├── train/
-│   └── data.txt
 ├── docs/
 │   ├── references/
-│   ├── docs.txt
 │   ├── project_notes.md
 │   └── workflow_description.md
 ├── models/
 │   ├── model_1.pkl
-│   ├── model_2.pkl
-│   └── models.txt
+│   └── model_2.pkl
 ├── results/
 │   ├── figures/
-│   │   └── Figures.md
-│   ├── metrics/
-│   │   └── README.md
-│   └── results.txt
+│   └── metrics/
+│       └── README.md
 ├── src/
 │   ├── 01_preprocessing.py
 │   ├── 02_training_model.py
-│   ├── 03_evaluation.py
-│   ├── src.txt
-│   └── src_2.txt
+│   └── 03_evaluation.py
 ├── .gitignore
 ├── LICENSE
 ├── README.md
